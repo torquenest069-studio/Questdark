@@ -1,0 +1,159 @@
+/* [project]/Desktop/Pharma/Quest/src/components/layout/Footer.module.css [app-client] (css) */
+.Footer-module__ee8sCa__footer {
+  background: var(--secondary-bg);
+  padding: var(--space-20) 0 var(--space-10);
+  border-top: 1px solid var(--glass-border);
+  color: var(--text-muted);
+}
+
+.Footer-module__ee8sCa__grid {
+  gap: var(--space-12);
+  margin-bottom: var(--space-16);
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  display: grid;
+}
+
+.Footer-module__ee8sCa__brandCol .Footer-module__ee8sCa__logo {
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  display: flex;
+}
+
+.Footer-module__ee8sCa__logoImg {
+  object-fit: contain;
+  width: auto;
+  max-width: 150px;
+  max-height: 40px;
+}
+
+.Footer-module__ee8sCa__brandTitle {
+  font-size: var(--font-xl);
+  color: var(--text-main);
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.Footer-module__ee8sCa__description {
+  font-size: var(--font-sm);
+  margin-bottom: var(--space-6);
+  max-width: 300px;
+  line-height: 1.7;
+}
+
+.Footer-module__ee8sCa__socials {
+  gap: var(--space-4);
+  display: flex;
+}
+
+.Footer-module__ee8sCa__socials a {
+  width: var(--space-10);
+  height: var(--space-10);
+  background: var(--glass-bg);
+  transition: var(--transition-normal);
+  border: 1px solid var(--glass-border);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Footer-module__ee8sCa__socials a:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  transform: translateY(-3px);
+}
+
+.Footer-module__ee8sCa__linksCol h3, .Footer-module__ee8sCa__contactCol h3 {
+  color: var(--text-main);
+  font-size: var(--font-base);
+  margin-bottom: var(--space-6);
+}
+
+.Footer-module__ee8sCa__linksCol ul li {
+  margin-bottom: var(--space-3);
+}
+
+.Footer-module__ee8sCa__linksCol ul li a {
+  font-size: var(--font-sm);
+  transition: var(--transition-fast);
+  padding: var(--space-2) 0;
+  display: inline-block;
+}
+
+.Footer-module__ee8sCa__linksCol ul li a:hover {
+  color: var(--accent-cyan);
+  padding-left: var(--space-1);
+}
+
+.Footer-module__ee8sCa__contactInfo li {
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  font-size: var(--font-sm);
+  display: flex;
+}
+
+.Footer-module__ee8sCa__icon {
+  color: var(--accent-cyan);
+  flex-shrink: 0;
+}
+
+.Footer-module__ee8sCa__bottomBar {
+  padding-top: var(--space-10);
+  border-top: 1px solid var(--glass-border);
+  font-size: var(--font-xs);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Footer-module__ee8sCa__copyright {
+  gap: var(--space-1);
+  flex-direction: column;
+  display: flex;
+}
+
+.Footer-module__ee8sCa__developer {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.Footer-module__ee8sCa__developer a {
+  color: var(--accent-cyan);
+  transition: var(--transition-fast);
+}
+
+.Footer-module__ee8sCa__developer a:hover {
+  color: var(--accent-blue);
+  text-decoration: underline;
+}
+
+.Footer-module__ee8sCa__legalLinks {
+  gap: var(--space-6);
+  display: flex;
+}
+
+.Footer-module__ee8sCa__legalLinks a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .Footer-module__ee8sCa__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .Footer-module__ee8sCa__grid {
+    gap: var(--space-8);
+    grid-template-columns: 1fr;
+  }
+
+  .Footer-module__ee8sCa__bottomBar {
+    gap: var(--space-4);
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Desktop_Pharma_Quest_src_components_layout_Footer_module_css_bad6b30c._.single.css.map*/

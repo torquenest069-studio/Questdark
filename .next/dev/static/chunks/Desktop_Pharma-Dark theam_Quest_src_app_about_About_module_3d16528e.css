@@ -1,0 +1,66 @@
+/* [project]/Desktop/Pharma-Dark theam/Quest/src/app/about/About.module.css [app-client] (css) */
+.About-module__4b_emW__aboutPage {
+  padding-top: var(--space-20);
+}
+
+.About-module__4b_emW__hero {
+  text-align: center;
+  padding: var(--space-32) 0;
+}
+
+.About-module__4b_emW__title {
+  font-size: var(--font-4xl);
+  margin-bottom: var(--space-6);
+}
+
+.About-module__4b_emW__subtitle {
+  font-size: var(--font-lg);
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.About-module__4b_emW__grid {
+  gap: var(--space-8);
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.About-module__4b_emW__card {
+  padding: var(--space-10);
+  border-radius: var(--space-4);
+}
+
+.About-module__4b_emW__card h2 {
+  font-size: var(--font-2xl);
+  margin-bottom: var(--space-6);
+  color: var(--accent-cyan);
+}
+
+.About-module__4b_emW__card p {
+  font-size: var(--font-base);
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.About-module__4b_emW__card ul {
+  gap: var(--space-4);
+  flex-direction: column;
+  display: flex;
+}
+
+.About-module__4b_emW__card li {
+  color: var(--text-muted);
+}
+
+.About-module__4b_emW__card li strong {
+  color: var(--text-main);
+}
+
+@media (max-width: 768px) {
+  .About-module__4b_emW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=Desktop_Pharma-Dark%20theam_Quest_src_app_about_About_module_3d16528e.css.map*/

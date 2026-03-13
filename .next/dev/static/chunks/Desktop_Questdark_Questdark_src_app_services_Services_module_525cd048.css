@@ -1,0 +1,156 @@
+/* [project]/Desktop/Questdark/Questdark/src/app/services/Services.module.css [app-client] (css) */
+.Services-module__-L20cW__servicesPage {
+  padding-top: var(--space-20);
+}
+
+.Services-module__-L20cW__hero {
+  text-align: center;
+  padding: var(--space-20) 0;
+}
+
+.Services-module__-L20cW__tag {
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: var(--font-xs);
+  margin-bottom: var(--space-2);
+  display: block;
+}
+
+.Services-module__-L20cW__title {
+  font-size: var(--font-4xl);
+  margin-bottom: var(--space-4);
+}
+
+.Services-module__-L20cW__subtitle {
+  color: var(--text-muted);
+  font-size: var(--font-base);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.Services-module__-L20cW__grid {
+  gap: var(--space-8);
+  padding: var(--space-12) 0;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  display: grid;
+}
+
+.Services-module__-L20cW__card {
+  padding: var(--space-8);
+  border-radius: var(--space-4);
+  transition: var(--transition-normal);
+  flex-direction: column;
+  display: flex;
+}
+
+.Services-module__-L20cW__card:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-5px);
+}
+
+.Services-module__-L20cW__cardHeader {
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  display: flex;
+}
+
+.Services-module__-L20cW__iconBox {
+  color: var(--accent-cyan);
+  padding: var(--space-2);
+  border-radius: var(--space-2);
+  background: #00f5ff1a;
+}
+
+.Services-module__-L20cW__desc {
+  font-size: var(--font-sm);
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.Services-module__-L20cW__keyAreas {
+  border-top: 1px solid var(--glass-border);
+  padding-top: var(--space-4);
+}
+
+.Services-module__-L20cW__kaLabel {
+  font-size: var(--font-xs);
+  color: var(--text-main);
+  text-transform: uppercase;
+  margin-bottom: var(--space-3);
+  font-weight: 800;
+  display: block;
+}
+
+.Services-module__-L20cW__keyAreas ul {
+  gap: var(--space-2);
+  flex-direction: column;
+  display: flex;
+}
+
+.Services-module__-L20cW__keyAreas li {
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+  align-items: center;
+  gap: var(--space-2);
+  display: flex;
+}
+
+.Services-module__-L20cW__keyAreas li:before {
+  content: "→";
+  color: var(--accent-cyan);
+  font-weight: 800;
+}
+
+.Services-module__-L20cW__engagement {
+  padding: var(--space-20) 0;
+}
+
+.Services-module__-L20cW__ctaBox {
+  padding: var(--space-16) var(--space-10);
+  border-radius: var(--space-6);
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff0d, #00f5ff0d);
+}
+
+.Services-module__-L20cW__ctaBox h2 {
+  font-size: var(--font-3xl);
+  margin-bottom: var(--space-4);
+}
+
+.Services-module__-L20cW__ctaBox p {
+  font-size: var(--font-base);
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto var(--space-8);
+}
+
+.Services-module__-L20cW__ctaBtn {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  color: var(--primary-bg);
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--space-2);
+  align-items: center;
+  gap: var(--space-2);
+  transition: var(--transition-normal);
+  font-weight: 800;
+  display: inline-flex;
+}
+
+.Services-module__-L20cW__ctaBtn:hover {
+  box-shadow: var(--shadow-glow);
+  transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+  .Services-module__-L20cW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=Desktop_Questdark_Questdark_src_app_services_Services_module_525cd048.css.map*/

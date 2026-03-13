@@ -1,0 +1,137 @@
+.compliancePage {
+    padding-top: var(--space-20);
+}
+
+.hero {
+    text-align: center;
+    padding: var(--space-20) 0;
+}
+
+.tag {
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: var(--font-xs);
+    margin-bottom: var(--space-4);
+    display: block;
+}
+
+.title {
+    font-size: var(--font-4xl);
+    margin-bottom: var(--space-6);
+}
+
+.subtitle {
+    font-size: var(--font-lg);
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.regGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-8);
+}
+
+.regCard {
+    padding: var(--space-10);
+    border-radius: var(--space-4);
+    transition: var(--transition-normal);
+}
+
+.regCard:hover {
+    border-color: var(--accent-cyan);
+    box-shadow: var(--shadow-glow);
+}
+
+.iconBox {
+    color: var(--accent-cyan);
+    margin-bottom: var(--space-6);
+}
+
+.region {
+    font-size: var(--font-xs);
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.regCard h3 {
+    font-size: var(--font-xl);
+    margin: var(--space-2) 0 var(--space-4);
+}
+
+.regCard ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.regCard li {
+    font-size: var(--font-sm);
+    color: var(--text-muted);
+    position: relative;
+    padding-left: var(--space-4);
+}
+
+.regCard li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: var(--accent-cyan);
+    border-radius: 50%;
+}
+
+.strategySection {
+    padding: var(--space-20) 0;
+    background: var(--secondary-bg);
+    border-top: 1px solid var(--glass-border);
+    margin-top: var(--space-20);
+}
+
+.strategyGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-12);
+}
+
+.stratCard {
+    text-align: center;
+}
+
+.stratIcon {
+    width: var(--space-12);
+    height: var(--space-12);
+    margin: 0 auto var(--space-6);
+    background: rgba(0, 245, 255, 0.1);
+    color: var(--accent-cyan);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stratCard h4 {
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-3);
+}
+
+.stratCard p {
+    font-size: var(--font-sm);
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .strategyGrid {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+    }
+}

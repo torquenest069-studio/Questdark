@@ -1,0 +1,171 @@
+/* [project]/Desktop/Pharma-Dark theam/Quest/src/app/leadership/Leadership.module.css [app-client] (css) */
+.Leadership-module__NUlb2G__leadershipPage {
+  padding-top: var(--space-20);
+}
+
+.Leadership-module__NUlb2G__hero {
+  text-align: center;
+  padding: var(--space-20) 0;
+}
+
+.Leadership-module__NUlb2G__tag {
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: var(--font-xs);
+  margin-bottom: var(--space-4);
+  display: block;
+}
+
+.Leadership-module__NUlb2G__title {
+  font-size: var(--font-4xl);
+  margin-bottom: var(--space-6);
+}
+
+.Leadership-module__NUlb2G__subtitle {
+  font-size: var(--font-lg);
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Leadership-module__NUlb2G__layout {
+  gap: var(--space-12);
+  grid-template-columns: 350px 1fr;
+  align-items: start;
+  display: grid;
+}
+
+.Leadership-module__NUlb2G__profileCard {
+  padding: var(--space-12) var(--space-8);
+  text-align: center;
+  border-radius: var(--space-6);
+  background: linear-gradient(#ffffff0d, #00f5ff0d);
+}
+
+.Leadership-module__NUlb2G__avatar {
+  width: var(--space-20);
+  height: var(--space-20);
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  color: var(--primary-bg);
+  margin: 0 auto var(--space-6);
+  font-size: var(--font-3xl);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  display: flex;
+}
+
+.Leadership-module__NUlb2G__role {
+  font-size: var(--font-sm);
+  color: var(--accent-cyan);
+  margin-bottom: var(--space-8);
+}
+
+.Leadership-module__NUlb2G__stats {
+  border-top: 1px solid var(--glass-border);
+  padding-top: var(--space-8);
+  gap: var(--space-4);
+  flex-direction: column;
+  display: flex;
+}
+
+.Leadership-module__NUlb2G__statLine {
+  font-size: var(--font-sm);
+  justify-content: space-between;
+  display: flex;
+}
+
+.Leadership-module__NUlb2G__statLine span {
+  color: var(--text-dim);
+}
+
+.Leadership-module__NUlb2G__teal {
+  color: var(--accent-cyan);
+}
+
+.Leadership-module__NUlb2G__backgroundBox {
+  padding: var(--space-8);
+  border-radius: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.Leadership-module__NUlb2G__backgroundBox h3 {
+  margin-bottom: var(--space-4);
+}
+
+.Leadership-module__NUlb2G__backgroundBox p {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.Leadership-module__NUlb2G__expertiseGrid {
+  gap: var(--space-6);
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.Leadership-module__NUlb2G__expertiseCard h4 {
+  margin-bottom: var(--space-2);
+}
+
+.Leadership-module__NUlb2G__expertiseCard p {
+  font-size: var(--font-sm);
+  color: var(--text-muted);
+}
+
+.Leadership-module__NUlb2G__iconBox {
+  color: var(--accent-cyan);
+  margin-bottom: var(--space-4);
+}
+
+.Leadership-module__NUlb2G__credentials {
+  padding: var(--space-20) 0;
+  border-top: 1px solid var(--glass-border);
+  margin-top: var(--space-20);
+}
+
+.Leadership-module__NUlb2G__credGrid {
+  gap: var(--space-12);
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+}
+
+.Leadership-module__NUlb2G__credItem h5 {
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-4);
+}
+
+.Leadership-module__NUlb2G__credItem p {
+  font-size: var(--font-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .Leadership-module__NUlb2G__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .Leadership-module__NUlb2G__profileCard {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .Leadership-module__NUlb2G__expertiseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .Leadership-module__NUlb2G__credGrid {
+    gap: var(--space-8);
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=Desktop_Pharma-Dark%20theam_Quest_src_app_leadership_Leadership_module_d21fe6f7.css.map*/

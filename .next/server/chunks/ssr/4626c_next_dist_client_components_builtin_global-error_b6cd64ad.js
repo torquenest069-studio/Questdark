@@ -1,0 +1,3 @@
+module.exports=[20352,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(35306);a.n(d("[project]/Desktop/Pharma-Dark theam/Quest/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},81321,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(35306);a.n(d("[project]/Desktop/Pharma-Dark theam/Quest/node_modules/next/dist/client/components/builtin/global-error.js"))},3367,a=>{"use strict";a.i(20352);var b=a.i(81321);a.n(b)}];
+
+//# sourceMappingURL=4626c_next_dist_client_components_builtin_global-error_b6cd64ad.js.map

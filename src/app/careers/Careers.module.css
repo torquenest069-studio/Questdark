@@ -1,0 +1,125 @@
+.careersPage {
+    padding-top: var(--space-20);
+}
+
+.hero {
+    text-align: center;
+    padding: var(--space-20) 0;
+}
+
+.tag {
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: var(--font-xs);
+    margin-bottom: var(--space-4);
+    display: block;
+}
+
+.title {
+    font-size: var(--font-4xl);
+    margin-bottom: var(--space-6);
+}
+
+.subtitle {
+    font-size: var(--font-lg);
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.benefitGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-8);
+    padding: var(--space-12) 0;
+}
+
+.benefitCard {
+    padding: var(--space-10);
+    border-radius: var(--space-4);
+    text-align: center;
+}
+
+.iconBox {
+    width: var(--space-16);
+    height: var(--space-16);
+    background: rgba(0, 245, 255, 0.1);
+    color: var(--accent-cyan);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--space-6);
+}
+
+.benefitCard h3 {
+    margin-bottom: var(--space-4);
+}
+
+.benefitCard p {
+    color: var(--text-muted);
+    font-size: var(--font-sm);
+    line-height: 1.6;
+}
+
+.openings {
+    padding: var(--space-20) 0;
+}
+
+.noOpenings {
+    padding: var(--space-20);
+    border-radius: var(--space-6);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.noOpeningsIcon {
+    color: var(--accent-cyan);
+    margin-bottom: var(--space-6);
+}
+
+.noOpenings h2 {
+    margin-bottom: var(--space-4);
+}
+
+.noOpenings p {
+    color: var(--text-muted);
+    margin-bottom: var(--space-8);
+}
+
+.cvBox {
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--space-8);
+    border-radius: var(--space-4);
+}
+
+.cvBox p {
+    font-size: var(--font-sm);
+    margin-bottom: var(--space-6);
+}
+
+.cvBtn {
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+    color: var(--primary-bg);
+    padding: var(--space-4) var(--space-10);
+    border-radius: var(--space-2);
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    transition: var(--transition-normal);
+}
+
+.cvBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
+@media (max-width: 640px) {
+    .noOpenings {
+        padding: var(--space-10) var(--space-6);
+    }
+}

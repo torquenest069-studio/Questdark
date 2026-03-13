@@ -1,0 +1,89 @@
+/* [project]/Desktop/Questdark/Questdark/src/components/home/ServicesSummary.module.css [app-client] (css) */
+.ServicesSummary-module__WKJvia__services {
+  background: var(--primary-bg);
+}
+
+.ServicesSummary-module__WKJvia__header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.ServicesSummary-module__WKJvia__title {
+  font-size: var(--font-3xl);
+  margin-bottom: var(--space-4);
+}
+
+.ServicesSummary-module__WKJvia__subtitle {
+  color: var(--text-muted);
+  font-size: var(--font-base);
+}
+
+.ServicesSummary-module__WKJvia__grid {
+  gap: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid;
+}
+
+.ServicesSummary-module__WKJvia__card {
+  gap: var(--space-4);
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+}
+
+.ServicesSummary-module__WKJvia__iconBox {
+  width: var(--space-12);
+  height: var(--space-12);
+  color: var(--accent-cyan);
+  border-radius: var(--space-3);
+  background: #00f5ff1a;
+  border: 1px solid #00f5ff33;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ServicesSummary-module__WKJvia__card h3 {
+  font-size: var(--font-xl);
+}
+
+.ServicesSummary-module__WKJvia__card p {
+  color: var(--text-muted);
+  font-size: var(--font-sm);
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.ServicesSummary-module__WKJvia__learnMore {
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-xs);
+  text-transform: uppercase;
+  color: var(--accent-cyan);
+  margin-top: var(--space-4);
+  font-weight: 700;
+  display: flex;
+}
+
+.ServicesSummary-module__WKJvia__footer {
+  margin-top: var(--space-12);
+  text-align: center;
+}
+
+.ServicesSummary-module__WKJvia__btnAll {
+  padding: var(--space-3) var(--space-10);
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  border-radius: var(--space-2);
+  transition: var(--transition-normal);
+  font-weight: 700;
+  display: inline-block;
+}
+
+.ServicesSummary-module__WKJvia__btnAll:hover {
+  background: var(--accent-cyan);
+  color: var(--primary-bg);
+  box-shadow: var(--shadow-glow);
+}
+
+/*# sourceMappingURL=3d860_Questdark_Questdark_src_components_home_ServicesSummary_module_css_bad6b30c._.single.css.map*/
